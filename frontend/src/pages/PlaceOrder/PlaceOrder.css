@@ -33,3 +33,40 @@
 .place-order .cart-total button{
     margin-top: 30px;
 }
+
+@media (max-width: 900px) {
+  .place-order {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+  }
+
+  .place-order-left,
+  .place-order-right {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .place-order-left .title {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .place-order-left .multi-fields {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .place-order-left input {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .place-order .cart-total button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+}

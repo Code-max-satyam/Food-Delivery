@@ -29,10 +29,17 @@
 .footer-content-right h2, .footer-content-center h2{
     color: tomato;
 }
+
+.footer-content-left img {
+    width: 120px; /* ya jitna chhota chahiye, adjust kar sakte ho */
+    height: auto;
+}
+
 .footer-social-icons img{
     width: 40px;
     margin-right: 15px;
 }
+
 .footer hr{
     width: 100%;
     height: 2px;
